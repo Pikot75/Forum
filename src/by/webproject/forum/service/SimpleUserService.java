@@ -6,11 +6,11 @@ import java.util.List;
 import java.util.Optional;
 
 public class SimpleUserService implements UserService{
+    String git = "service";
     @Override
     public User addUserAsAdmin(String login, String password, String secretKey) {
         return null;
     }
-
     @Override
     public User addUserAsClient(String login, String password) {
         return null;
